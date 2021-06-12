@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicPlayer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.min.css">
+    <script src="all.min.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="app-container">
+            <div class="music-cover">
+                <img src="Images/nakoni-bavar.jpg" alt="music-cover" class="cover-img">
+            </div>
+            <div>
+                <audio src="Musics/07 ZedBazi - Nakoni Bavar Featuring Behzad Leito .mp3" class="music-box"></audio>
+            </div>
+            <div class="music-info">
+                <p class="music-name">nakoni bavar</p>
+                <p class="music-artist">zed bazi</p>
+            </div>
+            <div class="progress-bar">
+                <div class="progress">
+                </div>
+            </div>
+            <div class="timer">
+                <span class="current-time">00:00</span>
+                <span class="whole-time"></span>
+            </div>
+            <div class="buttons">
+                <div>
+                    <button class="controll-btn backward">
+                        <i class="fad fa-backward"></i>
+                    </button>
+                </div>
+                <div>
+                    <button class="controll-btn play-pause">
+                        <span class="play"><i class="fad fa-play"></i></span>
+                        <span class="pause"><i class="fad fa-stop"></i></span>
+                    </button>
+                </div>
+                <div>
+                    <button class="controll-btn forward">
+                        <i class="fad fa-forward"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
